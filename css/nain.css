@@ -296,6 +296,8 @@ body nav .navbar-collapse ul li:hover p {
 .fourth-page {
     margin-top: 5%;
     margin-bottom: 4%;
+    border: 1px solid red;
+    width: 100%;
 }
 
 
