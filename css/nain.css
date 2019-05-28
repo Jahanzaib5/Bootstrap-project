@@ -371,6 +371,7 @@ body nav .navbar-collapse ul li:hover p {
 .fifth-page {
     background: rgb(38, 41, 89);
     color: white;
+    width: 100%;
 }
 
 .fifth-page .row {
@@ -379,6 +380,7 @@ body nav .navbar-collapse ul li:hover p {
 }
 
 .fifth-page h2 {
+    margin-top: 5%;
     text-align: left;
     margin-bottom: 4%;
     font-size: 32px;
@@ -408,12 +410,26 @@ body nav .navbar-collapse ul li:hover p {
 }
 
 .fifth-page button:hover {
-    background: rgb(38, 41, 89);
+    background: white;
+    color: black;
     border: 1.9px solid white;
 }
 
 
 /*----------------------------------sixth-page------------------------------------------------------------------------*/
+
+.sixth-page {
+    border: 1px solid red;
+}
+
+.sixth-page h2 {
+    margin-top: 5%;
+    margin-bottom: 4%;
+    font-size: 32px;
+    font-weight: 600;
+    line-height: 36px;
+    color: rgb(38, 41, 89);
+}
 
 
 /*----------------------------------footer------------------------------------------------------------------------*/
