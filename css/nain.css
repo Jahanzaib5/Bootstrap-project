@@ -296,9 +296,124 @@ body nav .navbar-collapse ul li:hover p {
 .fourth-page {
     margin-top: 5%;
     margin-bottom: 4%;
-    border: 1px solid red;
     width: 100%;
 }
+
+.fourth-page .ko {
+    margin-bottom: 4%;
+}
+
+.fourth-page .ko h2 {
+    font-size: 32px;
+    font-weight: 600;
+    line-height: 36px;
+    color: #262959;
+}
+
+.fourth-page .card-deck {
+    margin-bottom: 4%;
+}
+
+.fourth-page .card-deck .card {
+    box-shadow: 0px 8px 9px 0px rgba(96, 94, 94, 0.17);
+}
+
+.fourth-page .card-deck .card .loco {
+    margin-top: 8%;
+}
+
+.fourth-page .card-deck .card .loco p {
+    font-size: 15px;
+    font-weight: 500;
+    line-height: 24px;
+    color: #989898;
+}
+
+.fourth-page .card-deck .card h4 {
+    font-size: 24px;
+    font-weight: 600;
+    line-height: 28px;
+    color: #262959;
+    margin-top: 3%;
+}
+
+.fourth-page .card-deck .card a {
+    margin-bottom: 4%;
+    text-decoration: none;
+}
+
+.fourth-page .card-deck .card p {
+    font-size: 15px;
+    line-height: 24px;
+    color: #333;
+}
+
+.fourth-page .card-deck .card-footer {
+    text-align: center;
+}
+
+.fourth-page .card-deck .card-footer h2 {
+    font-size: 15px;
+    font-weight: 600;
+    line-height: 20px;
+    color: #262959;
+}
+
+.fourth-page .card-deck .card-footer p {
+    font-size: 15px;
+    line-height: 24px;
+    color: #989898;
+}
+
+
+/*----------------------------------fifth-page------------------------------------------------------------------------*/
+
+.fifth-page {
+    background: rgb(38, 41, 89);
+    color: white;
+}
+
+.fifth-page .row {
+    margin-top: 5%;
+    margin-left: 5%;
+}
+
+.fifth-page h2 {
+    text-align: left;
+    margin-bottom: 4%;
+    font-size: 32px;
+    font-weight: 600;
+    line-height: 36px;
+}
+
+.fifth-page h3 {
+    font-size: 19px;
+    font-weight: 600;
+    line-height: 24px;
+    padding-bottom: 16px;
+}
+
+.fifth-page p {
+    font-size: 15px;
+    line-height: 24px;
+    padding-bottom: 32px;
+    opacity: 0.5;
+}
+
+.fifth-page button {
+    background: rgb(38, 41, 89);
+    border: 1px solid white;
+    margin-top: -5%;
+    margin-bottom: 10%;
+}
+
+.fifth-page button:hover {
+    background: rgb(38, 41, 89);
+    border: 1.9px solid white;
+}
+
+
+/*----------------------------------sixth-page------------------------------------------------------------------------*/
 
 
 /*----------------------------------footer------------------------------------------------------------------------*/
