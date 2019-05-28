@@ -1,0 +1,298 @@
+* {
+    font-family: 'ProgrammeDrivy', BlinkMacSystemFont, -apple-system, Segoe UI, Roboto, Oxygen, Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue, Helvetica, Arial, sans-serif;
+}
+
+body {
+    width: 100%;
+    font-family: 'ProgrammeDrivy', BlinkMacSystemFont, -apple-system, Segoe UI, Roboto, Oxygen, Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue, Helvetica, Arial, sans-serif;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+}
+
+body nav {
+    margin-left: -2%;
+    border-bottom: 1px solid rgba(0, 0, 0, 0.12);
+    background: rgb(255, 255, 255);
+}
+
+body nav a {
+    padding-left: 7%;
+}
+
+body nav .navbar-collapse {
+    width: 100%;
+    float: left;
+    margin-left: 45%;
+    text-align: left;
+    color: black;
+    text-decoration: none;
+}
+
+body nav .navbar-collapse ul li p {
+    font-family: 'ProgrammeDrivy', BlinkMacSystemFont, -apple-system, Segoe UI, Roboto, Oxygen, Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue, Helvetica, Arial, sans-serif;
+    font-size: 15px;
+    margin-bottom: -2%;
+    font-weight: 600;
+    color: #474752;
+}
+
+body nav .navbar-collapse ul li.active a {
+    text-decoration: underline;
+}
+
+body nav .navbar-collapse ul li.active {
+    background-color: #fff;
+    text-decoration: underline;
+}
+
+body nav .navbar-collapse ul li::after {
+    color: rgb(219, 39, 39);
+    font-size: 15px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+body nav .navbar-collapse ul li:hover {
+    background: #262959;
+}
+
+body nav .navbar-collapse ul li:hover p {
+    color: white;
+}
+
+#myheader {
+    position: fixed;
+    border-bottom: 1px solid #262959;
+    box-shadow: 0px 8px 9px 0px rgba(96, 94, 94, 0.17);
+    opacity: 40;
+    z-index: 40;
+}
+
+#myheader .main {
+    width: 150vh;
+    margin-left: 7.5%;
+    margin-bottom: 1%;
+    margin-top: 1%;
+    z-index: 40;
+}
+
+.sticky #header {
+    position: fixed;
+    top: 0;
+    width: 100%;
+    opacity: 9999;
+}
+
+
+/*----------------------------------first-page------------------------------------------------------------------------*/
+
+.first_page {
+    width: 100%;
+    margin-bottom: 4%;
+}
+
+.first_page .left_one {
+    padding-left: 7%;
+}
+
+.first_page .left_one .fit h2 {
+    text-align: center;
+    float: center;
+    margin-left: 0%;
+    margin-top: 10%;
+    margin-bottom: 6%;
+    font-size: 44px;
+    font-weight: 600;
+    color: #262959;
+}
+
+.first_page .left_one .fit .form-group .form-control {
+    cursor: pointer;
+    border: 2px solid rgb(156, 154, 154);
+}
+
+.first_page .left_one .fit .form-group .form-control:hover {
+    border: 2px solid black;
+}
+
+.first_page .left_one .fit .right_button {
+    float: right;
+    margin-top: 7%;
+    opacity: 0.9;
+    transition: 0.1s ease;
+}
+
+.first_page .left_one .fit .right_button:hover {
+    opacity: 2;
+}
+
+.first_page .left_one .fit .last_one h2 {
+    font-size: 40px;
+    margin-left: -20%;
+}
+
+.first_page .left_one .fit .last_one p {
+    color: #989898;
+    text-transform: uppercase;
+    margin-top: -4%;
+    font-size: 14px;
+}
+
+.first_page .right_one {
+    float: right;
+}
+
+.first_page .right_img {
+    padding-bottom: -2%;
+    margin-bottom: -0.01%;
+}
+
+.first_page .right_img img {
+    width: 100%;
+}
+
+.first_page .right_button button {
+    background-color: #262959;
+    color: #ddd8d8;
+}
+
+
+/*-----first-page-strip-----------------------*/
+
+.strip {
+    margin-bottom: 4%;
+    margin-top: -4%;
+    border-top: 1px solid #989898;
+    border-bottom: 1px solid #989898;
+    box-shadow: 0px 8px 9px 0px rgba(96, 94, 94, 0.17);
+}
+
+.strip .row {
+    margin-top: 2%;
+    width: 80%;
+    margin-left: 9%;
+}
+
+.strip .row h3 {
+    font-size: 24px;
+    font-weight: 600;
+    line-height: 28px;
+    color: #262959;
+}
+
+.strip .row p {
+    font-size: 15px;
+    line-height: 24px;
+    color: #989898;
+    font-weight: 700;
+}
+
+.strip .col-sm-3 {
+    text-align: center;
+}
+
+
+/*-----second-page------------------------*/
+
+.second-page {
+    background-color: rgb(253, 251, 251);
+    border-bottom: 1px solid #262959;
+    margin-bottom: 4%;
+    background-color: rgb(253, 249, 249);
+}
+
+.second-page .root {
+    border: 1px solid red;
+    text-align: center;
+    margin-bottom: 5%;
+}
+
+.second-page .root h1 {
+    font-size: 32px;
+    font-weight: 600;
+    line-height: 36px;
+    color: rgb(38, 41, 89);
+    margin-bottom: 15px;
+}
+
+.second-page .root p {
+    font-size: 17px;
+    line-height: 24px;
+    color: rgb(163, 163, 167);
+    font-weight: 600;
+}
+
+.second-page .loli {
+    float: center;
+}
+
+.second-page .loli .two {
+    margin-left: 4%;
+    border: 1px solid black
+}
+
+.second-page .loli .one {
+    margin-left: 4%;
+    border: 1px solid black
+}
+
+.second-page .card-group {
+    width: 50%;
+    margin-left: 25%;
+}
+
+
+/*----------------------------------footer------------------------------------------------------------------------*/
+
+.footer {
+    margin-bottom: 2%;
+}
+
+.footer .left_one img {
+    margin-right: 2%;
+}
+
+.footer .left_one .dropup {
+    margin-top: -3%;
+}
+
+.footer .left_one button {
+    border-radius: 30px;
+    background: #898a8b;
+    border: none;
+    margin-left: 3%;
+}
+
+.footer .left_one p {
+    width: 52%;
+    font-size: 13px;
+    float: right;
+    margin-top: 2%;
+    color: #4e4d4d;
+}
+
+.footer .right_one ul {
+    margin-top: 1.2%;
+    width: 65%;
+    margin-left: 14%;
+}
+
+.footer .right_one ul li {
+    display: inline-block;
+    font-size: 12px;
+}
+
+.footer .right_one .icons {
+    width: 25%;
+    float: right;
+    margin-top: -3%;
+}
+
+.footer .right_one .icons i {
+    margin-right: 4%;
+    cursor: pointer;
+    opacity: 0.8;
+}
+
+.footer .right_one .icons i:hover {
+    opacity: 2;
+}

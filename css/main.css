@@ -1,0 +1,631 @@
+* {
+    font-family: 'ProgrammeDrivy', BlinkMacSystemFont, -apple-system, Segoe UI, Roboto, Oxygen, Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue, Helvetica, Arial, sans-serif;
+}
+
+body {
+    width: 100%;
+    font-family: 'ProgrammeDrivy', BlinkMacSystemFont, -apple-system, Segoe UI, Roboto, Oxygen, Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue, Helvetica, Arial, sans-serif;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+}
+
+body nav {
+    margin-left: -2%;
+    border-bottom: 1px solid rgba(0, 0, 0, 0.12);
+    background: rgb(255, 255, 255);
+}
+
+body nav a {
+    padding-left: 7%;
+}
+
+body nav .navbar-collapse {
+    width: 100%;
+    float: left;
+    margin-left: 34%;
+    text-align: left;
+    color: black;
+    text-decoration: none;
+}
+
+body nav .navbar-collapse ul li p {
+    font-family: 'ProgrammeDrivy', BlinkMacSystemFont, -apple-system, Segoe UI, Roboto, Oxygen, Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue, Helvetica, Arial, sans-serif;
+    font-size: 15px;
+    margin-bottom: -2%;
+    font-weight: 600;
+    color: #474752;
+}
+
+body nav .navbar-collapse ul li.active a {
+    text-decoration: underline;
+}
+
+body nav .navbar-collapse ul li.active {
+    background-color: #fff;
+    text-decoration: underline;
+}
+
+body nav .navbar-collapse ul li::after {
+    color: rgb(219, 39, 39);
+    font-size: 15px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+body nav .navbar-collapse ul li:hover {
+    background: #262959;
+}
+
+body nav .navbar-collapse ul li:hover p {
+    color: white;
+}
+
+
+/*----------------------------------first page---------------------------------------------------------*/
+
+.container-fluid {
+    width: 92%;
+}
+
+.container {
+    width: 92%;
+}
+
+#tell {
+    background-image: url(images/Capture.JPG);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    width: 100%;
+    height: 120vh;
+    color: #262959;
+}
+
+#tell .container-fluid {
+    padding-top: 2%;
+    text-align: center;
+    font-family: 'ProgrammeDrivy', BlinkMacSystemFont, -apple-system, Segoe UI, Roboto, Oxygen, Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue, Helvetica, Arial, sans-serif;
+    color: #262959;
+}
+
+#tell h1 {
+    font-family: 'ProgrammeDrivy', BlinkMacSystemFont, -apple-system, Segoe UI, Roboto, Oxygen, Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue, Helvetica, Arial, sans-serif;
+    font-weight: 600;
+    font-size: 9vh;
+    color: rgb(43, 42, 42);
+    margin-top: 2%;
+}
+
+#tell .line {
+    /* 	flex-basis: 50%; */
+    font-size: 40px;
+    color: #14f7c1;
+    letter-spacing: 10px;
+    position: absolute;
+    opacity: 0;
+}
+
+#tell .slider_one {
+    margin-top: -1%;
+    width: 100%;
+}
+
+#tell .slider {
+    margin-top: 2%;
+}
+
+#tell .slider_one .slider {
+    padding-left: -50%;
+}
+
+#tell .slider_one .slider h3 {
+    font-family: 'ProgrammeDrivy', BlinkMacSystemFont, -apple-system, Segoe UI, Roboto, Oxygen, Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue, Helvetica, Arial, sans-serif;
+    font-size: 5vh;
+    font-weight: 600;
+    color: rgb(43, 42, 42);
+}
+
+#tell .slider_one .slider h3.one {
+    padding-bottom: 1%;
+    padding-top: 1%;
+}
+
+#tell form {
+    width: 100;
+    margin-top: 1%;
+    float: center;
+    text-align: center;
+    padding-left: 17%;
+}
+
+#tell form .icons {
+    margin-top: 5%;
+}
+
+#tell form .one {
+    width: 35%;
+    margin-right: 2%;
+}
+
+#tell form .two {
+    width: 15%;
+    margin-right: 2%;
+}
+
+#tell form .three {
+    width: 15%;
+    margin-right: 2%;
+}
+
+#tell img {
+    margin-left: 0%;
+    margin-top: 2%;
+}
+
+
+/*--------------------------------------------------------second page---------------------------*/
+
+.second_page {
+    font-family: 'ProgrammeDrivy', BlinkMacSystemFont, -apple-system, Segoe UI, Roboto, Oxygen, Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue, Helvetica, Arial, sans-serif;
+    color: #262959;
+    padding-top: 2%;
+    border-bottom: #d7e3eb;
+    background: #fcf9f9;
+    width: 100%;
+}
+
+.second_page .left_one {
+    float: left;
+    text-align: left;
+    padding-left: 15%;
+}
+
+.second_page .left_one h2 {
+    font-size: 32px;
+    font-weight: 600;
+    line-height: 36px;
+    color: #262959;
+    margin-bottom: 6%;
+}
+
+.second_page .left_one p {
+    color: #635858;
+    font-size: 18px;
+    line-height: 26px;
+    margin-bottom: 8%;
+}
+
+.second_page .left_one p img {
+    position: relative;
+    top: 5%;
+}
+
+.second_page .left_one span {
+    text-decoration: none;
+    color: #2ea2ea;
+    border-radius: 5px;
+    padding-top: 2%;
+    padding-bottom: 2%;
+    padding-left: 1%;
+    padding-right: 1%;
+    transition: 0.6s ease;
+}
+
+.second_page .left_one span a {
+    text-decoration: none;
+}
+
+
+/*--------------------page three----------------------------------------------------------*/
+
+.third_page {
+    margin-top: 0%;
+    font-family: 'ProgrammeDrivy', BlinkMacSystemFont, -apple-system, Segoe UI, Roboto, Oxygen, Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue, Helvetica, Arial, sans-serif;
+    background: #fff;
+    color: #262959;
+    width: 100%;
+}
+
+.third_page .left_one {
+    float: center;
+}
+
+.third_page .left_one h1 {
+    text-align: center;
+    font-size: 44px;
+    margin-top: 6%;
+    font-size: 6vh;
+    font-weight: 600;
+    margin-bottom: 4%;
+    padding-left: 10%;
+}
+
+.third_page .right_one dt {
+    text-align: left;
+    float: left;
+    color: #262959;
+    font-size: 24px;
+    font-weight: 600;
+    line-height: 26px;
+}
+
+.third_page .right_one dd {
+    text-align: left;
+    font-size: 15px;
+    line-height: 24px;
+    margin-top: 1%;
+    margin-bottom: 4%;
+    color: #989898;
+}
+
+.third_page .right_one button {
+    float: left;
+    text-align: left;
+    margin-left: 2%;
+    box-shadow: 0px 8px 9px 0px rgba(96, 94, 94, 0.17);
+}
+
+
+/*-----------------------------------------------fourth page-----------------------------------------------*/
+
+.fourth_page {
+    font-family: 'ProgrammeDrivy', BlinkMacSystemFont, -apple-system, Segoe UI, Roboto, Oxygen, Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue, Helvetica, Arial, sans-serif;
+    background: #fcf9f9;
+    color: #262959;
+    width: 100%;
+}
+
+.fourth_page .top_one {
+    float: center;
+    padding-top: 6%;
+    padding-bottom: 0%;
+}
+
+.fourth_page .top_one h1 {
+    font-size: 6vh;
+    font-weight: 600;
+    text-align: center;
+    padding-left: 8%;
+}
+
+.fourth_page .posts {
+    margin-left: 4%;
+}
+
+.fourth_page .posts .blog {
+    margin-top: -2%;
+    margin-bottom: 5%;
+}
+
+.fourth_page .posts .blog .card {
+    box-shadow: 0px 8px 9px 0px rgba(96, 94, 94, 0.17);
+}
+
+.fourth_page .posts .blog .card .class-text a {
+    text-decoration: none;
+}
+
+.fourth_page .posts .blog h5 {
+    text-decoration: none;
+    color: rgb(46, 44, 44);
+    margin-top: 2%;
+    font-size: 20px;
+    font-weight: 600;
+}
+
+.fourth_page .posts .blog .right {
+    float: right;
+    margin-top: 0%;
+}
+
+.fourth_page .posts .blog p {
+    font-size: 14px;
+    color: #636769;
+    margin-top: 5%;
+    margin-bottom: 1%;
+    padding-bottom: 6%;
+    padding-top: 1%;
+}
+
+.fourth_page .posts .blog p.right {
+    padding-top: 0%;
+    margin-top: -8%;
+}
+
+.fourth_page .posts .blog a {
+    margin-bottom: 4%;
+}
+
+
+/*--------------------------fifth page-----------------------------------------------*/
+
+.fifth_page {
+    margin-top: 0%;
+    font-family: 'ProgrammeDrivy', BlinkMacSystemFont, -apple-system, Segoe UI, Roboto, Oxygen, Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue, Helvetica, Arial, sans-serif;
+    background: #fff;
+    padding-top: 7%;
+    color: #262959;
+    width: 100%;
+}
+
+.fifth_page .left_one {
+    margin-left: 10%;
+}
+
+.fifth_page .left_one h1 {
+    margin-top: 6%;
+    font-size: 7vh;
+    font-weight: 600;
+    margin-bottom: 4%;
+}
+
+.fifth_page .left_one p {
+    color: #635858;
+    font-size: 18px;
+    line-height: 26px;
+    margin-bottom: 8%;
+}
+
+.fifth_page .left_one p img {
+    position: relative;
+    top: 5%;
+}
+
+.fifth_page .left_one button {
+    box-shadow: 0px 8px 9px 0px rgba(96, 94, 94, 0.17);
+}
+
+
+/*------------------------------sixth one--------------------------------*/
+
+.sixth_page {
+    background-image: url(images/sixth_page/Capture.JPG);
+    background-size: auto;
+    background-position: center;
+    background-repeat: no-repeat;
+    height: 58vh;
+    font-family: 'ProgrammeDrivy', BlinkMacSystemFont, -apple-system, Segoe UI, Roboto, Oxygen, Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue, Helvetica, Arial, sans-serif;
+    color: #262959;
+    box-shadow: 0px 8px 9px 0px rgba(96, 94, 94, 0.17);
+    width: 100%;
+}
+
+.sixth_page .right_one {
+    width: 150vh;
+    margin-left: 53%;
+    margin-top: 8%;
+}
+
+.sixth_page .right_one h2 {
+    font-size: 6vh;
+    font-weight: 600;
+    margin-bottom: 5%;
+}
+
+.sixth_page .right_one button {
+    border: 2px solid black;
+    margin-right: 2%;
+}
+
+.sixth_page .right_one button a {
+    text-decoration: none;
+    color: #262959;
+}
+
+.sixth_page .right_one button:hover {
+    text-decoration: none;
+    color: none;
+    background: none;
+}
+
+
+/*----------------------7ht one-------------------------------------------------------------*/
+
+.seventh_page {
+    background-image: url(images/7th-page/Capture.JPG);
+    background-size: auto;
+    background-position: center;
+    background-repeat: no-repeat;
+    height: 58vh;
+    font-family: 'ProgrammeDrivy', BlinkMacSystemFont, -apple-system, Segoe UI, Roboto, Oxygen, Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue, Helvetica, Arial, sans-serif;
+    color: #262959;
+    margin-top: 20%;
+}
+
+.seventh_page .left_one h1 {
+    text-align: center;
+    font-size: 44px;
+    margin-top: -10%;
+    font-size: 7vh;
+    font-weight: 600;
+    margin-bottom: 2%;
+    color: #262959;
+}
+
+.seventh_page .slider_one {
+    text-align: center;
+    margin-top: -7%;
+}
+
+.seventh_page .slider_one .slider {
+    margin-top: 3%;
+}
+
+.seventh_page .slider_one .slider h3 {
+    font-size: 7vh;
+    font-weight: 700;
+    padding-left: -4%;
+    color: #00d9d9;
+}
+
+.seventh_page .slider_one .slider h3.one {
+    padding-bottom: 1%;
+    padding-top: 1%;
+}
+
+.seventh_page .last_one {
+    text-align: center;
+}
+
+.seventh_page .last_one button {
+    transition: 0.2s ease;
+    border: 1px solid #636769;
+    box-shadow: 0px 8px 9px 0px rgba(96, 94, 94, 0.17);
+}
+
+.seventh_page .last_one button:hover {
+    text-decoration: none;
+    color: black;
+    background: #fff;
+    border: 1.9px solid black;
+}
+
+
+/*-------------------------------last one-----------------------------------------*/
+
+.last_page {
+    margin-top: 6%;
+    font-family: 'ProgrammeDrivy', BlinkMacSystemFont, -apple-system, Segoe UI, Roboto, Oxygen, Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue, Helvetica, Arial, sans-serif;
+}
+
+.last_page .left_one {
+    margin-left: 4%;
+    margin-bottom: 5%;
+}
+
+.last_page .left_one button {
+    font-size: 15px;
+    text-decoration: none;
+    color: rgb(87, 85, 85);
+    border-radius: 10px;
+    margin-left: 1%;
+    height: 35px;
+    background: #eeebeb;
+}
+
+.last_page .right {
+    margin-left: 8%;
+    float: center;
+    text-align: center;
+    color: black;
+    opacity: 0.5;
+    transition: 0.2s ease;
+    margin-bottom: 3%;
+}
+
+.last_page .right:hover {
+    opacity: 10;
+}
+
+
+/*-------------------------------------last last one-----------------------------------------*/
+
+.last {
+    border-top: 1px solid rgb(153, 146, 146);
+    border-bottom: 1px solid rgb(153, 146, 146);
+    margin-bottom: 2%;
+    font-family: 'ProgrammeDrivy', BlinkMacSystemFont, -apple-system, Segoe UI, Roboto, Oxygen, Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue, Helvetica, Arial, sans-serif;
+}
+
+.last .row {
+    margin-top: 6%;
+    margin-bottom: 4%;
+}
+
+.last .left_one {
+    margin-right: 2%;
+}
+
+.last h3 {
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 24px;
+    text-transform: uppercase;
+    margin-bottom: 24px;
+    color: #989898;
+}
+
+.last .left_one p {
+    font-size: 15px;
+    line-height: 26px;
+    color: #4e4d4d;
+}
+
+.last .left_one h3 a {
+    text-decoration: none;
+    color: #989898;
+}
+
+.last ul li {
+    line-height: 35px;
+}
+
+.last ul li a {
+    color: #4e4d4d;
+    font-size: 15px;
+}
+
+.last .right_one img {
+    opacity: 0.5;
+    transition: 0.2s ease;
+}
+
+.last .right_one img:hover {
+    opacity: 10;
+}
+
+
+/*----------------------------------footer------------------------------------------------------------------------*/
+
+.footer {
+    margin-bottom: 2%;
+}
+
+.footer .left_one img {
+    margin-right: 2%;
+}
+
+.footer .left_one .dropup {
+    margin-top: -3%;
+}
+
+.footer .left_one button {
+    border-radius: 30px;
+    background: #898a8b;
+    border: none;
+    margin-left: 3%;
+}
+
+.footer .left_one p {
+    width: 52%;
+    font-size: 13px;
+    float: right;
+    margin-top: 2%;
+    color: #4e4d4d;
+}
+
+.footer .right_one ul {
+    margin-top: 1.2%;
+    width: 65%;
+    margin-left: 14%;
+}
+
+.footer .right_one ul li {
+    display: inline-block;
+    font-size: 12px;
+}
+
+.footer .right_one .icons {
+    width: 25%;
+    float: right;
+    margin-top: -3%;
+}
+
+.footer .right_one .icons i {
+    margin-right: 4%;
+    cursor: pointer;
+    opacity: 0.8;
+}
+
+.footer .right_one .icons i:hover {
+    opacity: 2;
+}
