@@ -195,13 +195,12 @@ body nav .navbar-collapse ul li:hover p {
 
 .second-page {
     background-color: rgb(253, 251, 251);
-    border-bottom: 1px solid #262959;
+    border-bottom: 1px solid #a4a4a7;
     margin-bottom: 4%;
     background-color: rgb(253, 249, 249);
 }
 
 .second-page .root {
-    border: 1px solid red;
     text-align: center;
     margin-bottom: 5%;
 }
@@ -227,18 +226,74 @@ body nav .navbar-collapse ul li:hover p {
 
 .second-page .loli .two {
     margin-left: 4%;
-    border: 1px solid black
+    border: 1px solid rgb(141, 139, 139);
+    border-radius: 5px;
 }
 
 .second-page .loli .one {
     margin-left: 4%;
-    border: 1px solid black
+    border: 1px solid rgb(141, 139, 139);
+    border-radius: 5px;
 }
 
 .second-page .card-group {
     width: 50%;
     margin-left: 25%;
+    margin-bottom: 3%;
 }
+
+
+/*-----second-page------------------------*/
+
+.third-page {}
+
+.third-page .tabs {
+    float: right;
+    text-align: center;
+    margin-left: 3%;
+}
+
+.third-page .tabs .whole {
+    border-bottom: 2px solid rgb(61, 61, 233);
+}
+
+.third-page nav {
+    text-align: center;
+    float: center;
+    margin-left: 0%;
+    margin-bottom: 5%;
+}
+
+.third-page h2 {
+    font-size: 24px;
+    font-weight: 700;
+    line-height: 28px;
+    color: #262959;
+    margin-bottom: 24px;
+}
+
+.third-page p {
+    font-size: 15px;
+    line-height: 24px;
+    color: #989898;
+}
+
+.third-page .tabs .mother {
+    border: 1px solid red;
+}
+
+.third-page .tabs .son {
+    border: 1px solid red;
+}
+
+.third-page .tabs .son.po {
+    float: right;
+}
+
+
+/*----------------------------------fourth-page------------------------------------------------------------------------*/
+
+.fourth-page {}
 
 
 /*----------------------------------footer------------------------------------------------------------------------*/
