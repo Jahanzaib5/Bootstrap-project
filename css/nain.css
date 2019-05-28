@@ -245,7 +245,13 @@ body nav .navbar-collapse ul li:hover p {
 
 /*-----second-page------------------------*/
 
-.third-page {}
+.third-page .nav a {
+    font-size: 16px;
+    line-height: 1;
+    font-weight: 600;
+    text-transform: uppercase;
+    color: #989898;
+}
 
 .third-page .tabs {
     float: right;
@@ -418,10 +424,6 @@ body nav .navbar-collapse ul li:hover p {
 
 /*----------------------------------sixth-page------------------------------------------------------------------------*/
 
-.sixth-page {
-    border: 1px solid red;
-}
-
 .sixth-page h2 {
     margin-top: 5%;
     margin-bottom: 4%;
@@ -429,6 +431,101 @@ body nav .navbar-collapse ul li:hover p {
     font-weight: 600;
     line-height: 36px;
     color: rgb(38, 41, 89);
+}
+
+.sixth-page h3 {
+    font-size: 24px;
+    font-weight: 600;
+    line-height: 28px;
+    color: #262959;
+    margin-top: 4%;
+    margin-left: 3%;
+}
+
+.sixth-page .card-body {
+    font-size: 15px;
+    color: #333;
+}
+
+.sixth-page .card {
+    box-shadow: 0px 8px 9px 0px rgba(96, 94, 94, 0.17);
+}
+
+
+/*-------------------------------last one-----------------------------------------*/
+
+.last_page {
+    margin-top: 6%;
+    font-family: 'ProgrammeDrivy', BlinkMacSystemFont, -apple-system, Segoe UI, Roboto, Oxygen, Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue, Helvetica, Arial, sans-serif;
+    background: #fafafa;
+}
+
+.last_page .right {
+    margin-left: 8%;
+    float: center;
+    text-align: center;
+    color: black;
+    opacity: 1;
+    transition: 0.2s ease;
+    margin-bottom: 3%;
+}
+
+
+/*-------------------------------------last last one-----------------------------------------*/
+
+.last {
+    border-top: 1px solid rgb(153, 146, 146);
+    border-bottom: 1px solid rgb(153, 146, 146);
+    margin-bottom: 2%;
+    font-family: 'ProgrammeDrivy', BlinkMacSystemFont, -apple-system, Segoe UI, Roboto, Oxygen, Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue, Helvetica, Arial, sans-serif;
+}
+
+.last .row {
+    margin-top: 6%;
+    margin-bottom: 4%;
+}
+
+.last .left_one {
+    margin-right: 2%;
+}
+
+.last h3 {
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 24px;
+    text-transform: uppercase;
+    margin-bottom: 24px;
+    color: #989898;
+}
+
+.last .left_one p {
+    font-size: 15px;
+    line-height: 26px;
+    color: #4e4d4d;
+}
+
+.last .left_one h3 a {
+    text-decoration: none;
+    color: #989898;
+}
+
+.last ul li {
+    line-height: 35px;
+    text-decoration: none;
+}
+
+.last ul li a {
+    color: #4e4d4d;
+    font-size: 15px;
+}
+
+.last .right_one img {
+    opacity: 0.5;
+    transition: 0.2s ease;
+}
+
+.last .right_one img:hover {
+    opacity: 10;
 }
 
 
