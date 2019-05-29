@@ -460,6 +460,45 @@ body nav .navbar-collapse ul li:hover p {
     background: #fafafa;
 }
 
+.last_page .row {
+    margin-left: 8%;
+}
+
+.last_page h2 {
+    font-size: 32px;
+    font-weight: 600;
+    line-height: 36px;
+    color: #262959;
+    margin-bottom: 2%;
+}
+
+.last_page h3 {
+    margin-bottom: 0px;
+    color: #262959;
+    font-weight: 600;
+    font-style: normal;
+    font-variant: normal;
+}
+
+.last_page button {
+    margin-top: 2%;
+    background: white;
+    border: 1px solid rgb(179, 176, 176);
+    margin-bottom: 10%;
+    color: black;
+    box-shadow: 0px 8px 9px 0px rgba(96, 94, 94, 0.17);
+}
+
+.last_page button:hover {
+    background: white;
+    color: black;
+    border: 1px solid black;
+}
+
+.last_page .left_one ul {
+    display: block;
+}
+
 .last_page .right {
     margin-left: 8%;
     float: center;
@@ -547,32 +586,33 @@ body nav .navbar-collapse ul li:hover p {
     border-radius: 30px;
     background: #898a8b;
     border: none;
-    margin-left: 3%;
+    margin-left: 2%;
+    margin-top: -3%;
 }
 
 .footer .left_one p {
     width: 52%;
     font-size: 13px;
     float: right;
-    margin-top: 2%;
+    margin-top: -1%;
     color: #4e4d4d;
 }
 
 .footer .right_one ul {
-    margin-top: 1.2%;
+    margin-top: 1%;
     width: 65%;
-    margin-left: 14%;
+    margin-left: 6%;
 }
 
 .footer .right_one ul li {
     display: inline-block;
-    font-size: 12px;
+    font-size: 11px;
 }
 
 .footer .right_one .icons {
     width: 25%;
     float: right;
-    margin-top: -3%;
+    margin-top: -9%;
 }
 
 .footer .right_one .icons i {
