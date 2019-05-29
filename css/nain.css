@@ -59,27 +59,36 @@ body nav .navbar-collapse ul li:hover p {
     color: white;
 }
 
-#myheader {
+.main {
+    padding-top: -5%;
+    background: transparent;
+    opacity: -9;
     position: fixed;
-    border-bottom: 1px solid #262959;
-    box-shadow: 0px 8px 9px 0px rgba(96, 94, 94, 0.17);
-    opacity: 40;
-    z-index: 40;
 }
 
-#myheader .main {
-    width: 150vh;
-    margin-left: 7.5%;
-    margin-bottom: 1%;
-    margin-top: 1%;
-    z-index: 40;
-}
-
-.sticky #header {
+.sticky .main {
+    background: white;
     position: fixed;
-    top: 0;
     width: 100%;
-    opacity: 9999;
+    padding-right: 5%;
+    padding-left: 9%;
+    margin-top: -0.5%;
+    box-shadow: 0px 0px 7px 1px rgba(0, 0, 0, 0.1);
+    opacity: 10;
+    z-index: 50;
+}
+
+.sticky .main button {
+    margin-top: 1%;
+    margin-bottom: 1%;
+    border-color: #50588c;
+    color: #fff;
+    background-color: #50588c;
+    fill: #fff;
+}
+
+.sticky .main button:hover {
+    background-color: #50588c;
 }
 
 
